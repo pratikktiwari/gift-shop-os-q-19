@@ -1,3 +1,4 @@
+//program for order of billing in accordance of maximum number of gifts with a particular student
 #include<stdio.h>
 int find_max_index(int arr[]); //function to find maximum index in the array
 int main(){
