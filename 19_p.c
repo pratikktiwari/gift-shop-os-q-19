@@ -18,11 +18,14 @@ int main(){
 		s[i] = max_index+1;
 		ng[max_index] = -1;
 	}
+	printf("\n===========================================\n");
 	printf("\nOrder of billing is: \n");
 	//print order of billing
 	for(int i=0; i<10; i++){
 		printf("S[%d]  -  %d\n",s[i], ng_d[s[i]-1]);
 	}
+	printf("\n");
+	printf("===========================================");
 	printf("\n");
 	return 0;
 }
